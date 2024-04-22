@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <a href="https://github.com/swaggyP36000/TrollStore-IPAs/releases/latest"><img src="https://img.shields.io/github/v/release/xiaoji235/IPA-Store?color=%232ea44f&label=Latest%20Release" alt="最新 Release 标签"></a>
+  <a href="https://github.com/xiaoji235/IPA-Store/releases/latest"><img src="https://img.shields.io/github/v/release/xiaoji235/IPA-Store?color=%232ea44f&label=Latest%20Release" alt="最新 Release 标签"></a>
 </p>
 
 <p align="center">
