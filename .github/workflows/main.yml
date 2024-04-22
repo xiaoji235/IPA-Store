@@ -44,6 +44,16 @@ jobs:
           commit_user_email: my-github-actions-bot@example.org # defaults to "41898282+github-actions[bot]@users.noreply.github.com"
           commit_author: Author <actions@github.com> # defaults to author of the commit that triggered the run
 
+
+      - name: Send GET Request
+        env: 
+            SECRET_VALUE: ${{ secrets.BARK_KEY }}
+        run: |
+         url="https://api.day.app/${SECRET_VALUE}/GitHub Action/推送成功?icon=https://day.app/assets/images/avatar.jpg"
+         response=$(curl -sSL "${url}")
+         echo "Response: $response"
+
+
           push_options: '--force'
 
       # - name: commit files
