@@ -47,9 +47,9 @@ jobs:
           push_options: '--force'
 
 
-      - name: Post request
+      - name: GET request using curl
         run: |
-          url: https://api.day.app/{{ secrets.BARK_KEY }}/Github Action/推送成功?icon=https://cdn.jsdelivr.net/gh/xiaoji235/IPA-Store/github.png
+          curl: https://api.day.app/{{ secrets.BARK_KEY }}/Github Action/推送成功?icon=https://cdn.jsdelivr.net/gh/xiaoji235/IPA-Store/github.png
 
 
 
