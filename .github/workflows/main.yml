@@ -46,13 +46,6 @@ jobs:
 
           push_options: '--force'
 
-
-      - name: GET request using curl
-        run: |
-          curl: https://api.day.app/{{ secrets.BARK_KEY }}/Github Action/推送成功?icon=https://cdn.jsdelivr.net/gh/xiaoji235/IPA-Store/github.png
-
-
-
       # - name: commit files
       #   run: |
       #     git config --local user.email "action@github.com"
