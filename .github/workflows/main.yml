@@ -46,14 +46,6 @@ jobs:
 
           push_options: '--force'
 
-          
-      - name: Send GET Request
-        env: 
-            SECRET_VALUE: ${{ secrets.BARK_KEY }}
-        run: |
-         url="https://api.day.app/${SECRET_VALUE}/GitHub Action/推送成功?icon=https://day.app/assets/images/avatar.jpg"
-         response=$(curl -sSL "${url}")
-         echo "Response: $response"
 
       # - name: commit files
       #   run: |
