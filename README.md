@@ -7,6 +7,6 @@
 
 <p align="center">
     <a href="https://raw.githubusercontent.com/xiaoji235/IPA-Store/main/apps_esign.json">
-    <img src="https://img.shields.io/badge/点击此处获取轻松签源-%20blue?style=for-the-badge&color=1e90ff" alt="点击此处获取轻松签源">
+    <img src="https://img.shields.io/badge/点击此处获取轻松签源-%20blue?style=for-the-badge&color=1e90ff" alt="获取轻松签源">
   </a>
 </p>
